@@ -1,0 +1,9 @@
+/* varela-round-regular */
+@font-face {
+	font-family: "Varela Round";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Varela Round Regular"), local("VarelaRound-Regular"), url(varela-round-regular.woff2) format("woff2");
+	font-display: block;
+}
+
