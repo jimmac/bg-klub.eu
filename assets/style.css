@@ -48,6 +48,9 @@
   --dark4: rgb(36,31,49);
   --dark5: rgb(0,0,0);
   --text: #f6f5f4;
+  --klubbg: #211b35;
+  --klubfg: #f4ecdf;
+  --klublink: var(--brown3);
 }
 * {
   -moz-box-sizing: border-box;
@@ -71,8 +74,9 @@ html, body {
 }
 body {
 	color: var(--text);
-  background: linear-gradient(90deg, var(--red5) 0%, var(--red4) 100%);
-
+  /* background: linear-gradient(90deg, var(--red5) 0%, var(--red4) 100%); */
+  background-color: var(--klubbg);
+  color: var(--klubfg);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Varela Round", VarelaRound, "Arial Rounded", Arial, sans-serif;
@@ -81,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
 }
 a {
-  color: var(--red1);
+  color: var(--klublink);
 }
 
 /* LAYOUT */
@@ -147,11 +151,11 @@ a {
   }
   
   .color-button {
-    background: linear-gradient(0deg, var(--red5) 0%, var(--red3) 100%);
+    background: linear-gradient(0deg, var(--dark4) 0%, var(--dark2) 100%);
     color: white;
   }
     .color-button:active {
-     background: linear-gradient(180deg, var(--red5) 0%, var(--red3) 100%);
+     background: linear-gradient(180deg, var(--dark4) 0%, var(--dark2) 100%);
      color: white;
      box-shadow: none;
     }
@@ -249,10 +253,10 @@ a {
     .top-row img.banner { width: 700px; }
   }
 
-.white-row {
+.light-row {
   overflow: hidden;
-  background-color: var(--light1);
-  color: var(--dark5);
+  background-color: var(--klubfg);
+  color: var(--klubbg);
   padding: 3rem 0;
 }
 
