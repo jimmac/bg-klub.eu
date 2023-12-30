@@ -245,7 +245,7 @@ a {
   }
   
   @media (min-width: 600px) {
-    .top-row { min-height: 100vh; }
+    .top-row { min-height: 60vh; }
     .top-row img.banner { width: 60vw; }
   }
   
@@ -409,6 +409,22 @@ table {
     width: 50%;
     margin: 2rem auto;
     transition: transform 300ms ease-in-out;
+  }
+
+.contacts {
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+  .phone, .contacts>a {
+    display: block;
+    text-align: center;
+    font-feature-settings: 'tnum';
+    -webkit-font-feature-settings: 'tnum';
+    -moz-font-feature-settings: 'tnum';
   }
 
   .odkazy a:hover {
