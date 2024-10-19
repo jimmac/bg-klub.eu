@@ -150,7 +150,7 @@ a:hover {
 a[href^="http"]:after {
   display: inline-block;
   margin-left: 3px;
-  content: url('img/extlink.svg');
+  content: url('extlink.svg');
 }
 
 a[href^="http"]:has(img,svg):after,
@@ -358,7 +358,7 @@ section.header ul.nav {
       backdrop-filter: blur(6px);
     }
         
-    &[href^="http"]:after { content: url('img/extlink-d.svg'); filter: invert(1); }
+    &[href^="http"]:after { content: url('extlink-d.svg'); }
   }
   
   ul.nav p {
