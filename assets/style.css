@@ -256,7 +256,7 @@ a.btn[href^="http"]:after { content: none; }
   &.warning { font-size: 130%; text-align: center; }
 }
 .container * {  grid-column: main; }
-.full {  grid-column: full; text-align: center; }
+.full {  grid-column: full; }
 .leftbloc { grid-column: 2/4; }
 .rightbloc { grid-column: 4/6; }
 
@@ -461,7 +461,7 @@ ul.textlist {
 
 ul.lightgallery {
   display: grid;
-  gap: 1rem;
+  gap: 4px;
   grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
   grid-template-rows: masonry;
   padding: 0;
