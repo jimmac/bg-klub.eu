@@ -3,7 +3,7 @@
 @import url("inter.css");
 
 /* image lightbox */
-@import url("cssbox.css");
+@import url("lightgallery.css");
 
 :root {
   --blue1: rgb(153,193,241);
@@ -456,6 +456,28 @@ ul.textlist {
     text-align: center;
     padding: 1em;
   }
+
+/* lighgallery */
+
+ul.lightgallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  grid-template-rows: masonry;
+  padding: 0;
+  margin: 0;
+
+  &>li {
+    grid-column: auto;
+    list-style: none;
+    
+    & img {
+      width: 100%;
+      display: block;
+      object-fit: contain;
+    }
+  }
+}
 
 #logo {
   margin: 0;

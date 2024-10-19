@@ -62,18 +62,49 @@
 
       <p>U nás si můžete v klidu užít příjemnou atmosféru a osvěžení. Objednávky občerstvení vyřizujeme přímo na baru s oddělenou pokladnou, což nám umožňuje věnovat více času technické podpoře u golfových simulátorů a badmintonových kurtů.</p>
 
-    <div class="gallery">
-      <div class="cssbox">
-        <a id="image1" href="#image1">
-          <img class="cssbox_thumb" src="assets/photos/thumbs/badminton-vstup.jpeg">
-          <span class="cssbox_full">
-            <img src="assets/photos/fulls/badminton-vstup.jpeg">
-          </span>
+    
+    <ul id="lightgallery" class="lightgallery">
+      <li data-src="assets/photos/fulls/badminton1.jpeg">
+        <a href="assets/photos/fulls/badminton1.jpeg">
+          <img src="assets/photos/thumbs/badminton1.jpeg">
         </a>
-        <a class="cssbox_close" href="#void"></a>
-        <a class="cssbox_next" href="#image2">&gt;</a>
-      </div>
-    </div>
+      </li>
+      <li data-src="assets/photos/fulls/badminton2.jpeg">
+        <a href="assets/photos/fulls/badminton2.jpeg">
+          <img src="assets/photos/thumbs/badminton2.jpeg">
+        </a>
+      </li>
+      <li data-src="assets/photos/fulls/bar1.jpeg">
+        <a href="assets/photos/fulls/bar1.jpeg">
+          <img src="assets/photos/thumbs/bar1.jpeg">
+        </a>
+      </li>
+      <li data-src="assets/photos/fulls/bar2.jpeg">
+        <a href="assets/photos/fulls/bar2.jpeg">
+          <img src="assets/photos/thumbs/bar2.jpeg">
+        </a>
+      </li>
+      <li data-src="assets/photos/fulls/bar3.jpeg">
+        <a href="assets/photos/fulls/bar3.jpeg">
+          <img src="assets/photos/thumbs/bar3.jpeg">
+        </a>
+      </li>
+      <li data-src="assets/photos/fulls/bar4.jpeg">
+        <a href="assets/photos/fulls/bar4.jpeg">
+          <img src="assets/photos/thumbs/bar4.jpeg">
+        </a>
+      </li>
+      <li data-src="assets/photos/fulls/golf1.jpeg">
+        <a href="assets/photos/fulls/golf1.jpeg">
+          <img src="assets/photos/thumbs/golf1.jpeg">
+        </a>
+      </li>
+      <li data-src="assets/photos/fulls/golf2.jpeg">
+        <a href="assets/photos/fulls/golf2.jpeg">
+          <img src="assets/photos/thumbs/golf2.jpeg">
+        </a>
+      </li>
+    </ul>
     
       <p>Golfisté i badmintonisté se setkávají právě zde, kde probíhá kontrola sálové obuvi a platba za sportovní aktivity i občerstvení. Badmintonisté používají čistou obuv bez černé podrážky (výjimku má pouze obuv, na které je výrobcem uvedeno <em>„NO MARKING“</em>), aby mohli bezpečně vstoupit na kurty.</p>
 
@@ -168,9 +199,9 @@
       </div>
     </div>
   </footer>
-<script src="assets/glightbox.min.js"></script>
-    <script type="text/javascript">
-      var lightbox = GLightbox({'selector': 'glightbox-demo'});
+<script src="assets/lightgallery.min.js"></script>
+<script type="text/javascript">
+  lightGallery(document.getElementById('lightgallery'));
 </script>
 </body>    
 </html>
