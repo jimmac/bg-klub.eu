@@ -467,7 +467,6 @@ ul.lightgallery {
   display: grid;
   gap: 4px;
   grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
-  grid-template-rows: masonry;
   padding: 0;
   margin: 0;
 
@@ -477,8 +476,10 @@ ul.lightgallery {
     
     & img {
       width: 100%;
-      display: block;
-      object-fit: contain;
+      height: auto;
+      aspect-ratio: 1;
+      object-fit: cover;
+      display: block;      
     }
   }
 }
