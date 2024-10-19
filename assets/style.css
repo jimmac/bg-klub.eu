@@ -306,6 +306,10 @@ a.btn[href^="http"]:after { content: none; }
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .hero .slogan { font-size: 120%; }
+}
+
 .hero section.header {
   display: flex;
   flex-direction: row;
