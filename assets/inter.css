@@ -1,0 +1,11 @@
+/* Inter Variable */
+
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: local("Inter Var"), local("Inter var"), local("Inter-var"), url("Inter.var.woff2") format("woff2");
+}
+

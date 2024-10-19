@@ -28,6 +28,7 @@
 
   <link rel="icon" type="image/png" href="assets/favicon.svg" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon-192x192.png" sizes="192x192">
+  
 </head>
 
 <body>
@@ -37,14 +38,15 @@
     <section class="header">
       <img id="logo" alt="BG Klub" src="assets/logo-stencil-bw.svg">
       <ul class="nav">
-        <li><a href="#vybaveni">Vybavení</a></li>
+        <li><a href="https://docs.google.com/document/d/1M_vMlVx4AUtxEKxrCYhfOR5UIyndChXip_4WPJZhby4/edit?tab=t.0">Aktuality</a></li>
+        <li><a href="#bistro">Bistro</a></li>
         <li><a href="#lokace">Lokace</a></li>
         <li><a href="#oteviracka">Otevírací doba</a></li>
         <li><a href="#cenik">Ceník</a></li>
       </ul>
     </section>
     
-    <div class="container">
+  <div class="container">
       <div class="slogan">
         <h2>Golfový odpal, badmintonový smeč</h2>
         <p>Objevte indoor golf a badminton v našem moderním centru!</p>
@@ -54,6 +56,37 @@
     </div>
   </div>
 
+      
+  <section class="container" id="bistro">
+    <h2>Bistro</h2>
+
+      <p>U nás si můžete v klidu užít příjemnou atmosféru a osvěžení. Objednávky občerstvení vyřizujeme přímo na baru s oddělenou pokladnou, což nám umožňuje věnovat více času technické podpoře u golfových simulátorů a badmintonových kurtů.</p>
+
+    <div class="gallery">
+      <div class="cssbox">
+        <a id="image1" href="#image1">
+          <img class="cssbox_thumb" src="assets/photos/thumbs/badminton-vstup.jpeg">
+          <span class="cssbox_full">
+            <img src="assets/photos/fulls/badminton-vstup.jpeg">
+          </span>
+        </a>
+        <a class="cssbox_close" href="#void"></a>
+        <a class="cssbox_next" href="#image2">&gt;</a>
+      </div>
+    </div>
+    
+      <p>Golfisté i badmintonisté se setkávají právě zde, kde probíhá kontrola sálové obuvi a platba za sportovní aktivity i občerstvení. Badmintonisté používají čistou obuv bez černé podrážky (výjimku má pouze obuv, na které je výrobcem uvedeno <em>„NO MARKING“</em>), aby mohli bezpečně vstoupit na kurty.</p>
+
+      <p>Těšíme se na vaši návštěvu a přejeme vám pohodový čas v našem bistru!</p>
+
+  </section>    
+  
+  <div class="emphasized-row">
+    <div class="container warning">
+      <p>Vstup na golfová zařízení a do badmintonové haly je povolen pouze v <em>čisté sálové obuvi</em>. Do haly je <strong>zakázána černá podrážka</strong>.</p>
+    </div>
+  </div>
+    
   
   <div id="cenik" class="container dual">
       <div class="leftbloc"><!-- Golf -->
@@ -94,40 +127,12 @@
   </div><!-- .container.dual -->
   
 
-  <div class="emphasized-row">
-    <div class="container warning">
-      <p>Vstup na golfová zařízení a do badmintonové haly je povolen pouze v <strong>čisté sálové obuvi</strong> (zakázána je černá podrážka).</p>
-    </div>
-  </div>
-    
-  <section class="container">
-    <h2>Členství v klubu Golfcentrum Liberec</h2>
-    
-    
-    <p>Golf club Golfcentrum Liberec je řádným členem České golfové federace,
-    což znamená, že každý člen tohoto klubu s ročním členstvím se řádným členem České golfové federace
-    stává také.</p>
 
-    <a href="assets/files/stanovy.pdf" class="btn default">Stanovy klubu</a>
-    </ul>
-    <h3>Roční členství (včetně členství v ČGF)</h3>
-
-    <div class="cenik">
-      <table>
-        <tr>
-          <td>Vstupní poplatek</td><td>není</td>
-        </tr><tr>
-          <td>Roční členský příspěvek</td><td>3 000,- Kč</td>
-        </tr>
-      </table>
-    </div>
-  </section>
-
+    
   <div class="emphasized-row" id="oteviracka">
     <div class="container">
-      <h2>Otevírací doba</h2>
-
-      <h3>Celoročně</h3>
+      <h2>Celoroční otevírací doba</h2>
+      
       <table>
       <tr>
       <td>Pondělí &ndash; Pátek</td><td>11:00 &ndash; 21:00</td>
@@ -139,7 +144,8 @@
            
     </div>
   </div>
-      
+
+    
   <footer>
     <div class="container">
       <div class="logo">
@@ -162,5 +168,9 @@
       </div>
     </div>
   </footer>
-</body>
+<script src="assets/glightbox.min.js"></script>
+    <script type="text/javascript">
+      var lightbox = GLightbox({'selector': 'glightbox-demo'});
+</script>
+</body>    
 </html>

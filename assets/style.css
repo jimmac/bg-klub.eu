@@ -1,5 +1,9 @@
 /* RESET & TYPOGRAPHY */
 @import url("varela-round.css");
+@import url("inter.css");
+
+/* image lightbox */
+@import url("cssbox.css");
 
 :root {
   --blue1: rgb(153,193,241);
@@ -475,7 +479,7 @@ table {
     }
 
   table th {
-    color: _palette(fg-bold);
+    color: #888;
     font-size: 0.9rem;
     font-weight: bold;
     padding: 0 0.75rem 0.75rem 0.75rem;
@@ -572,3 +576,5 @@ footer {
   footer .logo { grid-column: 1/3; }
   footer .contacts { grid-column: 3/6; }
 }
+
+
