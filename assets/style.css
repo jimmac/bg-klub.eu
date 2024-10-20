@@ -293,7 +293,7 @@ a.btn[href^="http"]:after { content: none; }
 .hero {
   padding: 0 0 4rem;
   text-align: center;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 100%), 
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%),
               url(bg.jpeg) no-repeat center;
   background-size: cover;
   
