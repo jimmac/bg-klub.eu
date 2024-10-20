@@ -128,6 +128,7 @@ strong {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--varela);
   margin: 3rem 0 1rem;
   font-weight: 800;
   line-height: 1.25;
@@ -301,6 +302,7 @@ a.btn[href^="http"]:after { content: none; }
     margin: 3rem auto;
     color: var(--osdfgcolor);
     max-width: calc(var(--pagewidth)/1.2);
+    font-family: var(--varela);
     
     & h2 { font-size: 120%; }
   }
