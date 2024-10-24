@@ -1,6 +1,7 @@
 /* RESET & TYPOGRAPHY */
-@import url("varela-round.css");
+/* @import url("varela-round.css"); */
 @import url("inter.css");
+@import url("open-runde.css");
 
 /* image lightbox */
 @import url("lightgallery.css");
@@ -53,6 +54,7 @@
   --dark5: rgb(0,0,0);
   --inter: "Inter var", Inter, sans-serif;
   --varela: "Varela Round", VarelaRound, "Arial Rounded", Arial, sans-serif;
+  --runde: "Open Runde", VarelaRound, "Arial Rounded", Arial, sans-serif;
   --klubbg: #211b35;
   --klubfg: #f4ecdf;
   --klublink: var(--brown3);
@@ -128,9 +130,9 @@ strong {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--varela);
+  font-family: var(--runde);
   margin: 3rem 0 1rem;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.25;
 }
 
@@ -302,7 +304,7 @@ a.btn[href^="http"]:after { content: none; }
     margin: 3rem auto;
     color: var(--osdfgcolor);
     max-width: calc(var(--pagewidth)/1.2);
-    font-family: var(--varela);
+    font-family: var(--runde);
     
     & h2 { font-size: 120%; }
   }

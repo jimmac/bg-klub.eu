@@ -1,0 +1,19 @@
+/* Open Runde -- https://github.com/lauridskern/open-runde?tab=readme-ov-file */
+/*
+@font-face {
+	font-family: "Open Runde";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Runde"), local("OpenRunde"), local("OpenRunde Regular"), url(OpenRunde-Regular.woff2) format("woff2");
+	font-display: block;
+}
+*/
+
+@font-face {
+	font-family: "Open Runde";
+	font-style: bold;
+	font-weight: 700;
+	src: local("Open Runde"), local("OpenRunde"), local("OpenRunde Bold"), url(OpenRunde-Bold.woff2) format("woff2");
+	font-display: block;
+}
+
