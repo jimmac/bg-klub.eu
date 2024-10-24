@@ -305,6 +305,7 @@ a.btn[href^="http"]:after { content: none; }
     color: var(--osdfgcolor);
     max-width: calc(var(--pagewidth)/1.2);
     font-family: var(--runde);
+    font-weight: 400;
     
     & h2 { font-size: 120%; }
   }
