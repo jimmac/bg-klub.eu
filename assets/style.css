@@ -543,6 +543,62 @@ table {
   }
 
 
+/* PARTNERS (inspired by gnome.org #supporters / .sponsors) */
+#partneri {
+  text-align: center;
+  margin-top: 0.5rem;
+
+  --renomia-fill: #003660;
+  --koop-green: #00843d;
+  --koop-red: #e2000f;
+  --koop-ink: #1d1d1b;
+
+  @media (prefers-color-scheme: dark) {
+    --renomia-fill: #fff;
+    --koop-green: #fff;
+    --koop-red: #fff;
+    --koop-ink: #fff;
+  }
+
+  & h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  & .partners {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 0.5rem 0 1rem;
+    flex-wrap: wrap;
+
+    & a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1 1 300px;
+      max-width: 460px;
+      min-width: 0;
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 0.5rem 1rem;
+      transition: transform 300ms ease-out;
+
+      @media (prefers-color-scheme: dark) { background-color: transparent; }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      & svg {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
 /* FOOTER */
 
 .container:has(+ footer) { /* last container before footer */
